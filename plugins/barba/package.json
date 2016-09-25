@@ -1,0 +1,53 @@
+{
+  "name": "barba.js",
+  "version": "0.0.10",
+  "description": "Barba.js it's a small, flexible and dependency free library that helps you creating fluid and smooth transition between your website's pages.",
+  "homepage": "http://barbajs.org",
+  "keywords": [
+    "pjax",
+    "transitions",
+    "navigation"
+  ],
+  "main": "dist/barba.js",
+  "scripts": {
+    "test": "npm run http-server -s && npm run unit && npm run e2e",
+    "e2e": "./node_modules/nightwatch/bin/nightwatch",
+    "unit": "./node_modules/.bin/karma start --single-run --browsers Firefox",
+    "http-server": "./node_modules/http-server/bin/http-server -p 9966 -s . &",
+    "generatedoc": "jsdoc src -r -d docs --configure jsdoc.json --verbose",
+    "dev": "webpack-dev-server --inline --hot",
+    "js": "webpack",
+    "filesize": "echo \"scale=2; $(gzip -c dist/barba.min.js | wc -c) / 1024\" | bc; echo \"kb\"",
+    "minify": "./node_modules/uglify-js/bin/uglifyjs --screw-ie8 --mangle --compress -o ./dist/barba.min.js ./dist/barba.js",
+    "build": "npm run js && npm run minify",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luruke/barba.js"
+  },
+  "bugs": {
+    "url": "https://github.com/luruke/barba.js/issues"
+  },
+  "author": "Luigi De Rosa <lurukee@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^0.9.0",
+    "istanbul-instrumenter-loader": "^0.2.0",
+    "jaguarjs-jsdoc": "0.0.1",
+    "jasmine-core": "^2.4.1",
+    "jsdoc": "git+https://github.com/jsdoc3/jsdoc.git",
+    "karma": "^0.13.22",
+    "karma-coverage": "^1.0.0",
+    "karma-coveralls": "^1.1.2",
+    "karma-firefox-launcher": "^1.0.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-webpack": "^1.7.0",
+    "nightwatch": "^0.9.4",
+    "promise-polyfill": "^5.2.1",
+    "selenium-server": "^2.53.0",
+    "uglify-js": "^2.6.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.12.1"
+  }
+}
