@@ -10,7 +10,7 @@ It is built with Bootstrap 3.3.6, jQuery, HTML5 & CSS3 (using SCSS preprecessor)
 
 ------
 
-![Screenshot of StartKit](./screenshots/startkit-promo-2.jpg)
+[![Screenshot of StartKit](./screenshots/startkit-promo-2.jpg)](https://www.authenticpixels.com/product/startkit-responsive-startup-business-template)
 
 
 
