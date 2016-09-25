@@ -6,21 +6,25 @@ It is built with Bootstrap 3.3.6, jQuery, HTML5 & CSS3 (using SCSS preprecessor)
 
 ------
 
-**[Demo & Details](#)**
+### [Demo & Details](https://www.authenticpixels.com/product/startkit-responsive-startup-business-template)
 
 ------
+
+![Screenshot of StartKit](./screenshots/startkit-promo-2.jpg)
+
+
 
 **NOTE:** You can freely use this template for your personal & commercial projects. If you are looking to customize this template or integrate it with other backends like Ruby on Rails, Node.js etc, I would recommend that you take a look at the **Premium version of this template**. You can purchase that for $15 from my website and purchasing it will give you the following benefits -
 
 - **Gulp based tooling** - It comes with Gulp tasks this will take care of converting SCSS to CSS, concatenating & minifying CSS & JS files and creating a production-ready build.
 - Easier customization using a built in **development server with Live Reload & BrowserSync**. Your changes will be instantly reflected in the browser.
 - Nunjucks based templating system - **no need to copy the same changes across multiple HTML files**.
-- Full **SCSS source code** with nicely organized modules (Please check the section called "[File structure & Organization](...)" below for more details)
+- Full **SCSS source code** with nicely organized modules (Please check the section called "[File structure & Organization](#file-structure--organization)" below for more details)
 - Pre-built **integrations with Ruby on Rails and Node.js** (Express) backends to get you up to speed really quick.
 - **6 PSD files** for quickly changing mockups images that are used in the demo (e.g: showcasing your product screenshot on a Macbook/iPad/Browser window mockup)
 - Priority **email support**.
 
-### [Purchase the Premium version now for $15 &rarr;](#)
+### [Purchase the Premium version now for $15 &rarr;](https://gum.co/startkit-bootstrap)
 
 -----------
 
@@ -77,7 +81,7 @@ It is built with Bootstrap 3.3.6, jQuery, HTML5 & CSS3 (using SCSS preprecessor)
 -----------
 
 ### Modern Tooling & Easy Development
-*Available only in Premium Version*
+*Available only in [Premium Version](https://gumroad.com/l/startkit-bootstrap)*
 
 StartKit's premium version comes with a **modern tooling system to make development and customization easier**. StartKit's gulp based tasks takes care of the following tasks -
 
@@ -100,78 +104,6 @@ StartKit's premium version comes with a **modern tooling system to make developm
 src/scss/
 ├── bootstrap
 │   ├── _bootstrap.scss
-│   └── bootstrap
-│       ├── _alerts.scss
-│       ├── _badges.scss
-│       ├── _breadcrumbs.scss
-│       ├── _button-groups.scss
-│       ├── _buttons.scss
-│       ├── _carousel.scss
-│       ├── _close.scss
-│       ├── _code.scss
-│       ├── _component-animations.scss
-│       ├── _dropdowns.scss
-│       ├── _forms.scss
-│       ├── _glyphicons.scss
-│       ├── _grid.scss
-│       ├── _input-groups.scss
-│       ├── _jumbotron.scss
-│       ├── _labels.scss
-│       ├── _list-group.scss
-│       ├── _media.scss
-│       ├── _mixins.scss
-│       ├── _modals.scss
-│       ├── _navbar.scss
-│       ├── _navs.scss
-│       ├── _normalize.scss
-│       ├── _pager.scss
-│       ├── _pagination.scss
-│       ├── _panels.scss
-│       ├── _popovers.scss
-│       ├── _print.scss
-│       ├── _progress-bars.scss
-│       ├── _responsive-embed.scss
-│       ├── _responsive-utilities.scss
-│       ├── _scaffolding.scss
-│       ├── _tables.scss
-│       ├── _theme.scss
-│       ├── _thumbnails.scss
-│       ├── _tooltip.scss
-│       ├── _type.scss
-│       ├── _utilities.scss
-│       ├── _variables.scss
-│       ├── _wells.scss
-│       └── mixins
-│           ├── _alerts.scss
-│           ├── _background-variant.scss
-│           ├── _border-radius.scss
-│           ├── _buttons.scss
-│           ├── _center-block.scss
-│           ├── _clearfix.scss
-│           ├── _forms.scss
-│           ├── _gradients.scss
-│           ├── _grid-framework.scss
-│           ├── _grid.scss
-│           ├── _hide-text.scss
-│           ├── _image.scss
-│           ├── _labels.scss
-│           ├── _list-group.scss
-│           ├── _nav-divider.scss
-│           ├── _nav-vertical-align.scss
-│           ├── _opacity.scss
-│           ├── _pagination.scss
-│           ├── _panels.scss
-│           ├── _progress-bar.scss
-│           ├── _reset-filter.scss
-│           ├── _reset-text.scss
-│           ├── _resize.scss
-│           ├── _responsive-visibility.scss
-│           ├── _size.scss
-│           ├── _tab-focus.scss
-│           ├── _table-row.scss
-│           ├── _text-emphasis.scss
-│           ├── _text-overflow.scss
-│           └── _vendor-prefixes.scss
 ├── components
 │   ├── _alert.scss
 │   ├── _btn.scss
@@ -191,13 +123,6 @@ src/scss/
 │   ├── _sticky-note.scss
 │   ├── _testimonial.scss
 │   └── _widget.scss
-├── fonts
-│   └── bootstrap
-│       ├── glyphicons-halflings-regular.eot
-│       ├── glyphicons-halflings-regular.svg
-│       ├── glyphicons-halflings-regular.ttf
-│       ├── glyphicons-halflings-regular.woff
-│       └── glyphicons-halflings-regular.woff2
 ├── modules
 │   ├── _bootstrap-overrides.scss
 │   ├── _material-colors.scss
@@ -281,7 +206,7 @@ src/templates/
 -------------
 
 ### Node JS integration
-*Available only in Premium Version*
+*Available only in [Premium Version](https://gumroad.com/l/startkit-bootstrap)*
 
 Open the `starkit-express` folder and run the following commands from the terminal to start up a demo Express.js application
 ```
@@ -294,7 +219,7 @@ Open your browser and navigate to http://localhost:8000/
 -------------
 
 ### Ruby on Rails integration
-*Available only in Premium Version*
+*Available only in [Premium Version](https://gumroad.com/l/startkit-bootstrap)*
 
 This template comes with a Rails 4.2 integration. To run the Rails app, open the startkit-rails folder in the terminal and run the following commands -
 ```
@@ -322,7 +247,7 @@ Development server with live-reloading & browserSync for easier development and 
 Prebuilt integrations with Ruby on Rails & Node.js backends | :x: | :heavy_check_mark:
 6 PSD files for easily replacing images used in demo with your own product images | :x: | :heavy_check_mark:
 Priority Email Support | :x: | :heavy_check_mark:
-**Pricing & Download** | FREE ([Download](#)) | $15 ([**Purchase**](#))
+**Pricing & Download** | FREE | $15 ([**Purchase**](https://gum.co/startkit-bootstrap))
 
 
 --------
@@ -332,7 +257,7 @@ Priority Email Support | :x: | :heavy_check_mark:
 - AOS (Animate On Scroll) - https://github.com/michalsnik/aos
 - Bootstrap - http://getbootstrap.com
 - Isotope - http://isotope.metafizzy.co
-- Magnific Popup - http://dimsemenov.com/plugins/magnific-popup/
+- Bootstrap Lightbox - https://github.com/ashleydw/lightbox
 - Slick Slider - http://kenwheeler.github.io/slick/
 - Magic Check - https://github.com/forsigner/magic-check
 - FontAwesome - http://fontawesome.io
@@ -356,3 +281,10 @@ Priority Email Support | :x: | :heavy_check_mark:
 
 ### Support, Bug Reports & Customization Requests
 Please send all your support requests, suggestions, comments and bug requests to **bharani@authenticpixels.com**. I will get back to you within 24 working hours.
+
+
+------
+
+### [Demo & Details](https://www.authenticpixels.com/product/startkit-responsive-startup-business-template)
+
+------
