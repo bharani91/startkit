@@ -154,7 +154,9 @@ $(function() {
   }
 
   $.StartKit.activateScrollAnimations = function() {
-    AOS.init();
+    AOS.init({
+      once: true
+    });
   }
 
   // INIT
